@@ -1,0 +1,72 @@
+/* Estilos para o layout da página */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #c7ddf1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #386ca0;
+  margin-right: 20px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+article {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 24px;
+  color: #193f58;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #c7ddf1;
+  text-align: center;
+  padding: 20px;
+}
+
+.sociallinks img {
+  width: 30px;
+  margin: 0 10px;
+}
