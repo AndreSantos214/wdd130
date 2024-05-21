@@ -79,9 +79,9 @@ nav {
   background-color: rgba(29, 82, 142, 0.4);
   padding: 20px;
   position: absolute;
-  top: 70%;
-  left: 17%;
-  width: 60%;
+  top: 55%;
+  right: 15%;
+  width: 70%;
 }
 
 .hero article p {
@@ -91,7 +91,7 @@ nav {
 .hero .pic2 {
   width: 15%;
   position: absolute;
-  top: 8%;
+  top: 10%;
   right: 2%;
 }
 
