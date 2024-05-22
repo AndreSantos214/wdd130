@@ -210,6 +210,10 @@ select:hover {
   transition: background-color 0.5s;
 }
 
+.title_radio {
+  font-weight: bold;
+}
+
 button {
   width: 100%;
   padding: 10px;
