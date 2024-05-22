@@ -123,7 +123,7 @@ nav {
   padding: 10px;
 }
 
-iframe {
+.map iframe {
   width: 350px;
   height: 350px;
   margin-bottom: 50px;
