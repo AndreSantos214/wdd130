@@ -7,7 +7,7 @@
   <meta name="description" content="Adventure awaits you! Explore the thrill of white water rafting with our experienced guides. This page is about our contacts">
   <meta name="author" content="André de Oliveira Santos">
   <title>White Water Rafting Contact Us</title>
-  <link rel="stylesheet" href="styles/rafting.css">
+  <link rel="stylesheet" href="styles/contact.css">
 </head>
 
 <body>
@@ -29,46 +29,65 @@
       <img class="pic1" src="images/river-wide2.jpeg" alt="Rafting Picture">
 
       <h1>White Water Rafting</h1>
-      <h1>Contact Us</h1>
+      <h2>Contact Us</h2>
+    </div>
 
-      <article>
-        <h2>Company Information</h2>
-        <p>Address: Rua 1° de Dezembro 48A, Amadora, Lisboa</p>
-        <p>Phone: (555) 123-4567</p>
-        <p>Email: info@raftingcompany.com</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.2588565855403!2d-9.243283169589256!3d38.75776647438416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ecda591e57a8b%3A0x3b1665caf0632a92!2sA%20Igreja%20de%20Jesus%20Cristo%20dos%20Santos%20dos%20%C3%9Altimos%20Dias!5e0!3m2!1spt-BR!2spt!4v1716367220284!5m2!1spt-BR!2spt" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </article>
+    <article class="company_information">
+      <h2>Company Information</h2>
+      <p>Address: Rua 1° de Dezembro 48A, Amadora, Lisboa</p>
+      <p>Phone: (555) 123-4567</p>
+      <p>Email: info@raftingcompany.com</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.2588565855403!2d-9.243283169589256!3d38.75776647438416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ecda591e57a8b%3A0x3b1665caf0632a92!2sA%20Igreja%20de%20Jesus%20Cristo%20dos%20Santos%20dos%20%C3%9Altimos%20Dias!5e0!3m2!1spt-BR!2spt!4v1716367220284!5m2!1spt-BR!2spt" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </article>
 
+    <section class="team">
+      <h2>Meet Our Team</h2>
+      <div class="employee-profile">
+        <figure>
+          <img src="images/employee_1.jpeg" alt="employee_1">
+          <figcaption>Guide</figcaption>
+        </figure>
 
-      <section class="team">
-        <h2>Meet Our Team</h2>
-        <div class="employee-profile">
-          <figure>
-            <img src="images/Image1.jpg" alt="Image 1">
-            <figcaption>Title: Guide</figcaption>
-          </figure>
+        <figure>
+          <img src="images/employee_2.jpeg" alt="employee_2">
+          <figcaption>Instructor</figcaption>
+        </figure>
 
-          <figure>
-            <img src="images/rafting53_600.jpg" alt="Image 2">
-            <figcaption>Caption 2</figcaption>
-          </figure>
+        <figure>
+          <img src="images/employee_3.jpeg" alt="employee_3">
+          <figcaption>Safety Officer</figcaption>
+        </figure>
+      </div>
+    </section>
 
-          <figure>
-            <img src="images/rafting59_600.jpg" alt="Image 3">
-            <figcaption>Caption 3</figcaption>
-          </figure>
+    <div class="form">
+      <form action="#" method="POST">
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
 
-          <figure>
-            <img src="images/rafting64_600.jpg" alt="Image 4">
-            <figcaption>Caption 4</figcaption>
-          </figure>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="user_email" required><br>
+        <br>
 
-          <figure>
-            <img src="images/rafting9_600.jpg" alt="Image5">
-            <figcaption>Caption 5</figcaption>
-          </figure>
-        </div>
-      </section>
+        <label for="purpose">Purpose:</label><br>
+        <input type="radio" id="general" name="purpose" value="general" checked>
+        <label for="general">General Inquiry</label><br>
+        <input type="radio" id="reservation" name="purpose" value="reservation">
+        <label for="reservation">Reservation Question</label><br>
+        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+        <label for="suggestion">Website Suggestion</label><br>
+        <br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+        <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   </main>
   <footer>
     <p>©2024 | White Water Rafting | André de Oliveira Santos </p>
