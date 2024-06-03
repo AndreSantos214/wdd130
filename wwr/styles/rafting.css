@@ -184,6 +184,11 @@ footer .wireframe:hover {
   padding: 10px;
 }
 
+.wireframe-img {
+  width: 4%;
+  height: auto;
+}
+
 /* Newsletter Signup */
 
 .newsletter-signup {
